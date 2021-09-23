@@ -1,0 +1,32 @@
+/*Buradaki olcüler;  https://i.redd.it/io9o66b195161.png sitesi baz 
+alinarak tespit edilmistir.*/
+
+/* #frame ile bayrak zemini olusturulmustur.*/
+#frame {
+  background-color: red;
+  box-shadow: 20px 20px 30px rgb(72, 72, 78);
+  height: 1209.5px;
+  margin: 50px;
+  position: absolute;
+  width: 1209.5px;
+}
+/* #hor ile yatay sutun olusturulmus ve margin degerleriyle beraber 
+pozisyonu absolute olarak belirlenmistir.
+Arka plan rengi beyaz olarak ayarlanmistir.*/
+#hor {
+  background-color: white;
+  height: 226px;
+  margin: 491px 226px;
+  position: absolute;
+  width: 756px;
+}
+/* #vert ile dikey sutun olusturulmus ve margin degerleriyle beraber 
+pozisyonu absolute olarak belirlenmistir.
+Arka plan rengi beyaz olarak ayarlanmistir.*/
+#vert {
+  background-color: white;
+  height: 756px;
+  margin: 226px 491px;
+  position: absolute;
+  width: 226px;
+}
